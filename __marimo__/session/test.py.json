@@ -1,0 +1,74 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.22.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "setup",
+      "code_hash": "8030bacb85bdc41b819e3599f7b0c9bb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "2bca4a3cadf19d396110e6c8310d6355",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "f46765d81b433b865ecc778c0d5ce355",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "4f1f90b6aa4f7a812e9b3192fe1fb00b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='885428aa-ee40-8a34-7783-15e15f3d526f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-03 17:07:27&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-03&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;11:40:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;CAAU9769295&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Dry 40&#x27;&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Not Applicable&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;Not Applicable&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S45732&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 09:27:01&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;09:24:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;TRIU8689579&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Carrier&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;IPHS S27583&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;smart&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 14:05:07&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;14:03:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;CGMU6584202&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Daikin&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S45732&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;smart&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 14:06:19&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;14:05:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;CXRU1527861&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Carrier&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;IPHS S27583&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 14:40:53&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;14:33:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;CGMU5301308&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Daikin&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S39481&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 14:42:57&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;14:34:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;TTNU8876127&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Starcool&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S45732&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 14:44:44&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;14:36:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;SEGU9226030&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Carrier&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;IPHS S27583&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 15:13:27&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;15:12:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;TXGU9008510&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Starcool&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S39481&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-06 15:18:02&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-06&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;15:17:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;TEMU9823617&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Daikin&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;IPHS S27583&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Timestamp&#92;&quot;:&#92;&quot;2026-01-08 08:58:13&#92;&quot;,&#92;&quot;Date&#92;&quot;:&#92;&quot;2026-01-08&#92;&quot;,&#92;&quot;Time In&#92;&quot;:&#92;&quot;08:57:00&#92;&quot;,&#92;&quot;Container Number&#92;&quot;:&#92;&quot;BEAU9702999&#92;&quot;,&#92;&quot;Shipping Line&#92;&quot;:&#92;&quot;CMA CGM&#92;&quot;,&#92;&quot;Type&#92;&quot;:&#92;&quot;Standard&#92;&quot;,&#92;&quot;Unit Manufacturer&#92;&quot;:&#92;&quot;Daikin&#92;&quot;,&#92;&quot;Status&#92;&quot;:&#92;&quot;Empty&#92;&quot;,&#92;&quot;PTI Status&#92;&quot;:&#92;&quot;NON PTI&#92;&quot;,&#92;&quot;Haulage&#92;&quot;:&#92;&quot;ACL S39481&#92;&quot;,&#92;&quot;Comments&#92;&quot;:&#92;&quot;&#92;&quot;}]&quot;' data-total-rows='1769' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Timestamp&quot;,[&quot;datetime&quot;,&quot;datetime[\u03bcs]&quot;]],[&quot;Date&quot;,[&quot;date&quot;,&quot;date&quot;]],[&quot;Time In&quot;,[&quot;time&quot;,&quot;time&quot;]],[&quot;Container Number&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Shipping Line&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Unit Manufacturer&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Status&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;PTI Status&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Haulage&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Comments&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
