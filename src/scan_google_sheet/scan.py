@@ -74,6 +74,8 @@ def scan_google_sheet(
     ...     url="https://docs.google.com/spreadsheets/d/1BxiMVs0.../edit",
     ... )
     """
+
+    _outer_batch_size = batch_size
     match (sheet_id, url):
         case (None, None):
             raise exceptions.ConfigurationError("Provide either sheet_id or url, not neither.")
@@ -103,13 +105,13 @@ def scan_google_sheet(
         batch_size: int | None,
     ) -> Iterator[pl.DataFrame]:
         """Produce batches of rows, honouring pushdown hints from the engine."""
-        _batch = batch_size or 1_000
+        _batch = batch_size or _outer_batch_size
 
-        lf = pl.scan_csv(
+        lf = pl.read_csv(
             StringIO(raw_csv),
             try_parse_dates=parse_dates,
             infer_schema_length=10_000,
-        )
+        ).lazy()
 
         # Apply pushdowns — filtering in Python, not at source (HTTP limitation)
         if with_columns is not None:

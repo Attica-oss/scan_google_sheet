@@ -79,7 +79,7 @@ def read_sheet(
     sheet_id = extract_sheet_id(url_or_id)
 
     # gid: explicit param wins, then try extracting from URL, then None (first sheet)
-    resolved_gid = gid or extract_gid(url_or_id)
+    resolved_gid = gid if gid is not None else extract_gid(url_or_id)
 
     export_url = build_export_url(sheet_id, resolved_gid)
     csv_text = fetch_raw(export_url, timeout=timeout)

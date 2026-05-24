@@ -1,7 +1,7 @@
 """Utilities for parsing Google Sheets URLs."""
 
 import re
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 
 from .exceptions import SheetURLError
 
@@ -50,9 +50,7 @@ def build_gviz_url(sheet_id: str, sheet_name: str) -> str:
         >>> build_gviz_url("1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms", "Sheet1")
         'https://docs.google.com/spreadsheets/d/1BxiMVs0.../gviz/tq?tqx=out:csv&sheet=Sheet1'
     """
-    return (
-        f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-    )
+    return f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={quote(sheet_name)}"
 
 
 def from_url(url: str, sheet_name: str) -> str:

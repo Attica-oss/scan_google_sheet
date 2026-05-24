@@ -75,7 +75,7 @@ class TestBuildGvizUrl:
 
     def test_sheet_name_with_spaces(self) -> None:
         url = build_gviz_url(SHEET_ID, "My Sheet")
-        assert "sheet=My Sheet" in url
+        assert "sheet=My%20Sheet" in url
 
 
 class TestFromUrl:

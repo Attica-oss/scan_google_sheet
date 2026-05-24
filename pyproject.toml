@@ -1,6 +1,6 @@
 [project]
 name = "scan-google-sheet"
-version = "0.1.0"
+version = "0.1.1"
 description = "Read public Google Sheets into Polars LazyFrames — no auth required"
 readme = "README.md"
 license = { text = "MIT" }
@@ -9,11 +9,9 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "duckdb>=1.5.1",
+
     "httpx>=0.28.1",
     "polars>=1.39.3",
-    "pyarrow>=23.0.1",
-    "sqlglot>=30.2.1",
 ]
 keywords = ["polars", "google-sheets", "csv", "dataframe", "lazy"]
 classifiers = [
