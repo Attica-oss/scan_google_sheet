@@ -1,4 +1,4 @@
-# read-sheet
+# Scan Google Sheet
 
 Read public Google Sheets into Polars DataFrames and LazyFrames — no auth, no service accounts, no API keys.
 
